@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to right top, #1c3041, #205870, #14859d, #00b5c2, #2fe6de);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.main{
+    background-color: #1C3041;
+    z-index: 1;
+    min-height: 80vh;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 121px 0px 78px 0px;
+    -webkit-border-radius: 121px 0px 78px 0px;
+    -moz-border-radius: 121px 0px 78px 0px;
+}
+.main button{
+    padding: 2rem 4rem;
+    background-color: #18F2B2;
+    border: none;
+    color: #1C3041;
+     border-radius: 50px 0px 50px 0px;
+    -webkit-border-radius: 50px 0px 50px 0px;
+    -moz-border-radius: 50px 0px 50px 0px;
+    outline: none;
+    cursor: pointer;
+}
+.main button:hover{
+    background-image: linear-gradient(to right top, #1c3041, #205870, #14859d, #00b5c2, #2fe6de);;
+    color: #18F2B2;
+    font-weight: 500;
+}
+#quoteText{
+    padding: 2rem;
+    color: #18F2B2;
+    text-align: center;
+}
