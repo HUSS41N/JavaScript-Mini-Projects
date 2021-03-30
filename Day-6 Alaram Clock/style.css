@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper {
+	height: 100vh;
+	width: 60%;
+	margin: auto;
+	background-color: bisque;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#hour,
+#minutes,
+#timePeriod {
+	padding: 1rem 2rem;
+}
+button {
+	margin-top: 2rem;
+	padding: 1rem 2rem;
+}
