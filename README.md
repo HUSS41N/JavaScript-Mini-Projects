@@ -1,5 +1,5 @@
 # JavaScript-Mini-Projects
-Alarm Clock
+# Alarm Clock
 Array Cardio Day
 beatbox
 Carousel
