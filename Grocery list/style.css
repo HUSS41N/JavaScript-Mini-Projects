@@ -1,0 +1,38 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 600px;
+	margin: auto;
+}
+#input {
+	padding: 1rem;
+	border: none;
+	border-bottom: 1.5px solid #000;
+}
+#addBtn {
+	padding: 1rem;
+	cursor: pointer;
+}
+#main {
+	display: none;
+}
+.grocery-items {
+	width: 100%;
+	margin-top: 2rem;
+}
+.grocery-item {
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	font-size: 1.5rem;
+	padding: 1rem;
+	border-bottom: 1.5px solid black;
+}
+.grocery-item li {
+	list-style: none;
+}
+#clearAll {
+	padding: 1rem;
+	margin: 2rem;
+}
